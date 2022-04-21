@@ -7,7 +7,6 @@ use Illuminate\Database\Eloquent\Model;
 
 class Joke extends Model
 {
-
     public $timestamps = false;
     protected $fillable = [
          'jokecontent', 'vote_fun','vote_nofun'

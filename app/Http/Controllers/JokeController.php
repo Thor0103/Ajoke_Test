@@ -10,7 +10,6 @@ use Illuminate\Support\Facades\Cookie;
 
 class JokeController extends Controller
 {
-
     public function getJoke (Request $request){
         $value = Cookie::get('name');
         if ($value){
