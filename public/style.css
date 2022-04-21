@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.app {
+    width: 100%;
+    height: auto;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between  ;
+    margin-top: 20px;
+}
+
+.header-logo {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.header-logo img {
+    width: 80px;
+    height: 80px;
+}
+
+.header-profile {
+    margin: 0 auto;
+    display: flex;
+}
+
+.header-profile .profile-img {
+    width: 40px;
+    height: 40px;
+}
+
+.header-profile .profile-text {
+    margin-right: 13px;
+}
+
+.header-profile .profile-text p:nth-child(2) {
+   text-align: right;
+}
+.header-profile .profile-text p:nth-child(1) {
+    color: rgb(90, 90, 90);
+    font-style: italic;
+}
+.header-profile .profile-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.container-header {
+    height: 150px;
+    background-color: rgb(1, 175, 65);
+    margin: 0 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.container-header p {
+    font-size: 10px;
+}
+
+.container .container-content {
+    margin: 0 30px;
+    padding: 50px 200px;
+    background-color: beige;
+    border-bottom: 1px solid rgb(202, 178, 178);
+    line-height: 2;
+}
+
+.container .container-button {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    margin: 40px 100px;
+    border-top: 1px solid rgb(202, 178, 178);
+}
+
+.container .container-button input {
+    padding: 10px 20px;
+    color: white;
+    border: none;
+}
+
+.container .container-button input:nth-child(1) {
+    margin-right: 20px;
+}
+
+.container-button__blue {
+    background-color: rgb(21, 99, 151);
+}
+
+.container-button__green {
+    background-color: rgb(1, 175, 65);
+}
+
+.footer {
+    margin: 0px 30px;
+    background-color: beige;
+    padding: 10px 200px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.footer p:nth-child(2) {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+
+
